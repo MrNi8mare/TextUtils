@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>welcome to text analyzer</h1>
+
+    <form action="/analyze" method="get" autocomplete="on">
+        <!-- <label for="text">Enter your text</label> -->
+        <textarea type="text" name="submittedtext" id="text" style="width: 1448px; height: 156px;"></textarea>        
+        <br>
+        <input type="checkbox" name="removepunc" id="removepunc">
+        <label for="removepunc">Remove Punctuation</label>
+        <input type="checkbox" name="fullcaps" id="fullcaps">
+        <label for="fullcaps">Full Capitalize</label><br>
+        <input type="checkbox" name="charcount" id="charcount">
+        <label for="charcount">Count Characters</label><br>
+        <button type="submit" id="analyzebtn">Analyze</button>
+
+    </form>
+    
+</body>
+
+</html>
+
+
+  
